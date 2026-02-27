@@ -1,3 +1,4 @@
+
 def trip_planner_welcome(name):
   print("Welcome to tripplanner v1.0 " + name)
 trip_planner_welcome("kyle")
@@ -13,4 +14,4 @@ def destination_setup(origin, destination, estimated_time, mode_of_transport = "
   print("You will be traveling by " + mode_of_transport)
   print("It will take approximately " + str(estimated_time) + " hours")
  
-destination_setup("insert origin", "insert destination", estimate, "insert destination")
+destination_setup("England", "Italy", estimate, "Car")
